@@ -1,14 +1,12 @@
-# E-Mart Inventory Management System (Frontend)
+# E-Mart Inventory Management System (Full-Stack)
 
-This is the frontend of the Inventory Management System built using React.js.  
-It allows users to manage inventory, track stock, and perform billing operations through a simple UI.
+This is a **full-stack Inventory Management System** built using **React.js** for the frontend and **Spring Boot** for the backend.  
+It allows users to manage inventory, track stock, and perform billing operations through a simple and interactive UI.
 
 ## Tech Stack
-- React JS
-- JavaScript
-- HTML
-- CSS
-- REST API Integration
+- **Frontend:** React JS, JavaScript, HTML, CSS
+- **Backend:** Java, Spring Boot, JDBC, JPA, MySQL
+- **Other:** REST API Integration
 
 ## Features
 - User Login Authentication
@@ -16,24 +14,11 @@ It allows users to manage inventory, track stock, and perform billing operations
 - Stock Management
 - Invoice Generation
 - Dashboard View
+- Role-Based Access Control
 
 ## Setup Instructions
 
-1. Clone the repository
+### Backend
+1. Clone the repository  
+   ```bash
    git clone <repo-url>
-
-2. Navigate to frontend folder
-   cd frontend
-
-3. Install dependencies
-   npm install
-
-4. Run the project
-   npm start
-
-## Backend API
-This frontend connects to Spring Boot backend APIs.
-
----
-
-Developed as part of a full-stack project using React and Spring Boot.
